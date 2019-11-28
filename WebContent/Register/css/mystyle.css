@@ -1,0 +1,77 @@
+/*mystyle.css样式表*/
+.body_bg{
+	background:#000 url(../images/login_bg.jpg) no-repeat fixed center / cover;
+}
+.whole{
+	width:30%;
+	min-width:400px;
+	background:#fff;
+	margin:0 auto;
+	position: relative;
+	opacity:0.9;
+}
+.whole_title{
+	height:50px;
+	text-align:center;
+	color:#fff;
+	background:#13a0b3;
+	font-size:1.3em;
+	font-weight:bold;
+	padding-top:13px;
+	margin-bottom:40px;
+}
+.blank_30{
+	height:30px;
+}
+.text_title{
+	text-align:center;
+	color:#45affd;
+	margin-top:20px;
+	font-size:1.1em;
+}
+.input_style{
+	width:80%;
+	margin-left:10%;
+	height:30px;
+	outline:none;	
+	text-indent:10px;
+	border:1px solid #45affd;
+}
+.input_style:focus{
+	box-shadow:0px 0px 3px  #ddd;
+}
+.text_input{
+	margin-top:30px;
+}
+.btn{
+	margin-top:25px;
+	padding-bottom:30px;
+}
+.button_style{
+	width:80%;
+	margin-left:10%;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	margin-top:20px;
+	background-color:#68a3f7;
+	border:none;
+	font-size:1.2em;
+	cursor:pointer;
+}
+.button_style:hover{
+	box-shadow:0 0 3px #68a3f7;
+}
+.register{
+	padding-bottom:40px;
+	padding-right:15px;
+}
+.register a{
+	text-decoration:none;
+	color:#68a3f7;
+	float:right;
+	transition: all ease 0.6s;
+}
+.register a:hover{
+	transform: scale(1.1);
+}
